@@ -8,6 +8,8 @@ import { KeyRound, LogIn, Mail } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import dokterImage from "/assets/ChatGPT Image Apr 10, 2025, 04_50_12 PM.png";
+import mediverseLogo from "/assets/logo-mediverse.png";
 
 type FormValues = {
   email: string;
@@ -45,7 +47,7 @@ const Login = () => {
       {/* LEFT */}
       <div className="flex justify-center items-center px-6">
         <img
-          src="/src/assets/logo-mediverse.png"
+          src={mediverseLogo}
           alt="mediverse logo"
           width={165}
           height={32}
@@ -116,7 +118,7 @@ const Login = () => {
       <div className="hidden md:block h-full">
         <div className="bg-gradient-to-b from-violet-900 to-fuchsia-500 h-full rounded-2xl flex flex-col items-center justify-center">
           <img
-            src="/src/assets/ChatGPT Image Apr 10, 2025, 04_50_12 PM.png"
+            src= {dokterImage}
             alt="mediverse image"
             width={400}
           />
