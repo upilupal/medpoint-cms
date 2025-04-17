@@ -53,7 +53,7 @@ const Login = () => {
         />
         <Card className="w-full max-w-md shadow-none border-none">
           <CardTitle>
-            <h1 className="text-5xl font-bold mb-2">Selamat Datang</h1>
+            <h1 className="text-5xl font-bold mb-5">Selamat Datang</h1>
             <p className="mb-6 text-black/40 font-bold">
               Masuk dan kelola dashboard Mediverse Anda sekarang
             </p>
